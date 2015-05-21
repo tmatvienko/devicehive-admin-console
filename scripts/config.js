@@ -1,6 +1,6 @@
 app.config = {
     // restEndpoint: 'http://ecloud.dataart.com/ecapi9',
-    restEndpoint: 'http://dh13.dataart.pen/api',
-    rootUrl: "",
+    restEndpoint: location.origin + "/dh/rest",
+    rootUrl: "/admin",
     pushState: false
 };
